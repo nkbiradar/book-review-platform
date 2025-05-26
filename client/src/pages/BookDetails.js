@@ -15,8 +15,8 @@ const BookDetails = () => {
   const token = localStorage.getItem('token');
 
 useEffect(() => {
-  axios.get(`/api/books/${id}`).then(res => setBook(res.data));
-  axios.get(`/api/reviews?bookId=${id}`).then(res => setReviews(res.data));
+  axios.get(`/books/${id}`).then(res => setBook(res.data));
+  axios.get(`/reviews?bookId=${id}`).then(res => setReviews(res.data));
 }, [id]);
 
 
