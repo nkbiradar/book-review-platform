@@ -18,7 +18,7 @@ app.use((req, res, next) => {
 });
 
 // Test Route
-app.get('/', (req, res) => {
+app.get('/api', (req, res) => {
   res.send('📚 Book Review Platform API is running...');
 });
 
