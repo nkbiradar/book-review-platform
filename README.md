@@ -16,16 +16,12 @@ A full-stack web application where users can browse, review, and rate books. Bui
 
 ---
 
-## 🖼️ UI Preview
-
-![Book Detail View](https://i.imgur.com/your-screenshot-url.png)
-> Replace with your own hosted screenshot
-
----
-
 ## 🚀 Live Demo (Optional)
-[🔗 Click here to visit the live app](https://your-live-demo-url.netlify.app)  
+[🔗 Click here to visit the live app](https://book-review-platform-gamma.vercel.app/)  
 > Add once deployed to Netlify / Render
+
+🚀 Live Backend API (Optional)
+[🔗 Click here to test the backend API](https://book-review-platform-l1u1.onrender.com/api)
 
 ---
 
