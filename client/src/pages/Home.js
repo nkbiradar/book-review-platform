@@ -11,7 +11,7 @@ const Home = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    axios.get('/api/books')
+    axios.get('/books')
       .then(res => setFeatured(res.data))
       .catch(err => console.error('Error loading featured books', err));
   }, []);
